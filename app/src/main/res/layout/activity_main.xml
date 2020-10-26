@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/astronaut"
-    >
+    android:background="@drawable/home_screen"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/txt_start"
         android:layout_width="222dp"
         android:layout_height="67dp"
-        android:layout_marginTop="588dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginBottom="102dp"
         android:background="@drawable/btn_start"
         android:fontFamily="@font/rufina_bold"
         android:gravity="center"
@@ -20,23 +20,11 @@
         android:text="@string/start_button"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_nasa"
-        android:layout_width="411dp"
-        android:layout_height="97dp"
-        android:layout_marginTop="324dp"
-        android:background="@drawable/txt_nasa"
-        android:fontFamily="@font/rufina_regular"
-        android:gravity="center"
-        android:text="@string/title"
-        android:textColor="#CCC9C9"
-        android:textSize="72sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
