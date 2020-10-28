@@ -4,4 +4,10 @@
     <string name="title">NASA</string>
     <string name="firstScreenTitle">360° OVERVIEW</string>
     <string name="backArrow">Return Home Screen</string>
+    <string name="SecondScreenTitle">GALLERY</string>
+    <string name="ThirdScreenTitle">PHOTO INFORMATION</string>
+    <string name="backArrow2">Return SecondScreen</string>
+    <string name="container">Container</string>
+    <string name="textviewHome">HOME</string>
+    <string name="textviewGallery">GALLERY</string>
 </resources>

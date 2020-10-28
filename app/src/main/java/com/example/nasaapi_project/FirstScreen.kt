@@ -15,4 +15,9 @@ class FirstScreen : AppCompatActivity() {
         val change = Intent(this, MainActivity::class.java)
         startActivity(change)
     }
+
+    fun galleryScreen(view: View){
+        val change = Intent(this, SecondScreen::class.java)
+        startActivity(change)
+    }
 }
