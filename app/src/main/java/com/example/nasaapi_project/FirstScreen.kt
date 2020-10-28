@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class FirstScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_first_screen)
     }
 
-    fun nextScreen(view: View) {
-        val change = Intent(this, FirstScreen::class.java)
+    fun homeScreen(view: View){
+        val change = Intent(this, MainActivity::class.java)
         startActivity(change)
     }
 }
