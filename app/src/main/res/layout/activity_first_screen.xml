@@ -20,25 +20,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/container"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="85dp"
-        android:contentDescription="@string/container"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/container" />
-
     <TextView
         android:id="@+id/txt_home"
-        android:layout_width="190dp"
-        android:layout_height="49dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/button_first_screen"
         android:fontFamily="@font/archivoblack"
         android:gravity="center"
@@ -46,18 +34,16 @@
         android:text="@string/textviewHome"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/txt_gallery"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_gallery"
-        android:layout_width="190dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="92dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
         android:background="@drawable/button_first_screen"
         android:fontFamily="@font/archivoblack"
         android:gravity="center"
@@ -66,7 +52,6 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.868"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
