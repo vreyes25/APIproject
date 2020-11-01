@@ -14,5 +14,6 @@ class MainActivity : AppCompatActivity() {
     fun nextScreen(view: View) {
         val change = Intent(this, FirstScreen::class.java)
         startActivity(change)
+        overridePendingTransition(R.anim.left_in, R.anim.fade_out)
     }
 }

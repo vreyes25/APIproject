@@ -14,5 +14,6 @@ class SecondScreen : AppCompatActivity() {
     fun firstScreen(view: View){
         val change = Intent(this, FirstScreen::class.java)
         startActivity(change)
+        overridePendingTransition(R.anim.right_in, R.anim.right_out)
     }
 }

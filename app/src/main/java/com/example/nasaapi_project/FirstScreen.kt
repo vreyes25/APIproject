@@ -14,10 +14,12 @@ class FirstScreen : AppCompatActivity() {
     fun homeScreen(view: View){
         val change = Intent(this, MainActivity::class.java)
         startActivity(change)
+        overridePendingTransition(R.anim.right_in, R.anim.right_out)
     }
 
     fun galleryScreen(view: View){
         val change = Intent(this, SecondScreen::class.java)
         startActivity(change)
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
     }
 }

@@ -14,5 +14,6 @@ class ThirdScreen : AppCompatActivity() {
     fun returnToGallery(view: View) {
         val change = Intent(this, SecondScreen::class.java)
         startActivity(change)
+
     }
 }
