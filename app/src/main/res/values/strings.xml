@@ -17,4 +17,6 @@
     <string name="decorativeLine">Decorative Line</string>
     <string name="earthPicture">Earth Picture</string>
     <string name="earthShadow">Earth Shadow</string>
+    <string name="gallery">All Space Photos</string>
+    <string name="txtImageTitle">Title Text</string>
 </resources>
