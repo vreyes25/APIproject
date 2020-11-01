@@ -10,4 +10,11 @@
     <string name="container">Container</string>
     <string name="textviewHome">HOME</string>
     <string name="textviewGallery">GALLERY</string>
+    <string name="textViewEarth">EARTH</string>
+    <string name="earthView">Panoramic Earth View</string>
+    <string name="daysCounter">%d Earth Days</string>
+    <string name="textLength">LENGTH OF THE YEAR</string>
+    <string name="decorativeLine">Decorative Line</string>
+    <string name="earthPicture">Earth Picture</string>
+    <string name="earthShadow">Earth Shadow</string>
 </resources>
