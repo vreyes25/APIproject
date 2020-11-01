@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_200">#0D0A0F</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="statusBar">#0D0A0F</color>
     <color name="statusBarAllScreens">#000000</color>

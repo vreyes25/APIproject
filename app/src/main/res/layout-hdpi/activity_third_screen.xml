@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ThirdScreen"
-    android:background="@drawable/all_screens_background">
+    android:background="@drawable/all_screens_background_low">
 
     <ImageView
         android:id="@+id/backArrow3"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="23dp"
         android:contentDescription="@string/backArrow"
         android:onClick="returnToGallery"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,14 +21,14 @@
         app:srcCompat="@drawable/back_arrow" />
 
     <TextView
-        android:id="@+id/thirdTitle"
+        android:id="@+id/firstTitle3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/sanchez_regular2"
         android:text="@string/ThirdScreenTitle"
         android:textColor="#C4C4C4"
-        android:textSize="26sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

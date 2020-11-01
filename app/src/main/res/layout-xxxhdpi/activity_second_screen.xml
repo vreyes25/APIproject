@@ -4,32 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdScreen"
-    android:background="@drawable/all_screens_background">
+    tools:context=".SecondScreen"
+    android:background="#000000">
 
     <ImageView
-        android:id="@+id/backArrow3"
+        android:id="@+id/backArrow2"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:contentDescription="@string/backArrow"
-        android:onClick="returnToGallery"
+        android:onClick="firstScreen"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back_arrow" />
 
     <TextView
-        android:id="@+id/thirdTitle"
+        android:id="@+id/secondTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/sanchez_regular2"
-        android:text="@string/ThirdScreenTitle"
+        android:text="@string/SecondScreenTitle"
         android:textColor="#C4C4C4"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondTitle"
+        android:padding="12dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
