@@ -131,8 +131,8 @@
     <ImageView
         android:id="@+id/decorativeLine"
         android:layout_width="wrap_content"
-        android:layout_height="55dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
         android:contentDescription="@string/decorativeLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

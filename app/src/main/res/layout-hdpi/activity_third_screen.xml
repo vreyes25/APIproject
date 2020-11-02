@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ThirdScreen"
-    android:background="@drawable/all_screens_background_low">
+    android:background="@drawable/all_screens_background">
 
     <ImageView
         android:id="@+id/backArrow3"
@@ -13,7 +13,7 @@
         android:layout_height="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="30dp"
         android:contentDescription="@string/backArrow"
         android:onClick="returnToGallery"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +21,10 @@
         app:srcCompat="@drawable/back_arrow" />
 
     <TextView
-        android:id="@+id/firstTitle3"
+        android:id="@+id/thirdTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:fontFamily="@font/sanchez_regular2"
         android:text="@string/ThirdScreenTitle"
         android:textColor="#C4C4C4"
@@ -32,4 +32,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/imageThirdScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/universe10" />
+
+    <TextView
+        android:id="@+id/photoDescription"
+        android:layout_width="280dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtPhotoDescription"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedImage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
