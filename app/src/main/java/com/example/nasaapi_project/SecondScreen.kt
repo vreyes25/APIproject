@@ -64,4 +64,10 @@ class SecondScreen : AppCompatActivity() {
 
         return arrayList
     }
+
+    fun imageSelected(view: View) {
+        val change = Intent(this, ThirdScreen::class.java)
+        startActivity(change)
+        overridePendingTransition(R.anim.slide_up, R.anim.slide_off)
+    }
 }

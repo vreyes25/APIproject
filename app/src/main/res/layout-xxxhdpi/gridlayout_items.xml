@@ -10,7 +10,8 @@
     app:cardPreventCornerOverlap="true"
     app:cardUseCompatPadding="true"
     app:cardBackgroundColor="#030D1B"
-    android:layout_marginLeft="8dp">
+    android:layout_marginLeft="8dp"
+    android:onClick="imageSelected">
 
     <RelativeLayout
         android:layout_width="match_parent"
